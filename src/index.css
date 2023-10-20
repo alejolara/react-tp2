@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://media.istockphoto.com/id/1450954054/es/foto/podio-de-madera-cuadrado-moderno-y-minimalista-con-planta-en-maceta-de-cer%C3%A1mica-blanca-sobre.jpg?s=2048x2048&w=is&k=20&c=1ScTHF90YpxQGLv3NZknM2F6JKZ6SOcPzZ6HsjBfJuM=');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
