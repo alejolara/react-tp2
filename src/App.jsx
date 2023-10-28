@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes ,Link} from 'react-router-dom';
 import NavBar from './componentes/navbar/NavBar';
 import CategoryProducts from './componentes/item/CategoryProducts';
 import { categories, products } from './data';
-import ItemDetail from './componentes/item/ItemDetail';
+import ItemDetailContiner from './componentes/item/ItemDetailContainer';
 import { CartProvider } from './componentes/cart/CartContext';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
               <Route path="/" element={<Home products={products} />} />
               <Route path="/inicio" element={<Inicio greeting="¡Bienvenido a Tiiiiienda!"/>} />
               <Route path="/categoria/:categoryId" element={<CategoryProducts products={products} />} />
-              <Route path="/item/:id" element={<ItemDetail />} />
+              <Route path="/item/:id" element={<ItemDetailContiner />} />
             </Routes>
         </div>
       </Router>
